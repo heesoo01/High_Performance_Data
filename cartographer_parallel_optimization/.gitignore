@@ -1,0 +1,26 @@
+# ROS build artifacts
+build/
+devel/
+install/
+*.pyc
+*.pyo
+__pycache__/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 바이너리
+*.o
+*.so
+*.a
+
+# rosbag (용량 큼)
+bags/*.bag
+
+# 에디터
+.vscode/
+*.swp
+*~
